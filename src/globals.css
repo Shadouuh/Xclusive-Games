@@ -1,0 +1,31 @@
+:root {
+  --background: #09090b;
+  --primary-text: #FAFAFA;
+  --border: #1F2937;
+  --secondary-text: #ccc9cb;
+}
+@font-face {
+  font-family: "Geist";
+  src: url(./assets/fonts/Geist.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geist";
+}
+body {
+  background-color: var(--background);
+}
+main{
+  display: flex;
+  flex-direction: row;
+}
+.router{
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
