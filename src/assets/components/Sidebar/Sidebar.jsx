@@ -65,7 +65,6 @@ const Sidebar = () => {
           </Link>
         ))}
       </div>
-
       <footer>
         <p className="footer-text">© 2025 Xclusive Games</p>
       </footer>

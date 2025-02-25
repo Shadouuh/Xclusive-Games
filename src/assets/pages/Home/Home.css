@@ -1,0 +1,89 @@
+.hero-header {
+  background-image: url("../../images/hero-bg.png");
+  display: flex;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  height: 92vh;
+}
+.glass-top {
+  width: 100%;
+  height: 92vh;
+  position: relative;
+  display: flex;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
+  object-fit: cover;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+}
+.hero-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.hero-text{
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--primary-text);
+}
+.hero-buttons{
+    padding: 15px;
+    display: flex;
+    gap: 7px;
+}
+.shop-btn, .offer-btn{
+    padding: 8px 12px;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 22px;
+    justify-content: center;
+    border: none;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+.shop-btn:hover, .offer-btn:hover{
+    transform: scale(1.02);
+}
+.shop-btn{
+    background: linear-gradient(75deg, #0172a7, #a64ac9);
+}
+.offer-btn{
+    border: var(--primary-text) solid 1px;
+    background-color: var(--background);
+}
+span{
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--primary-text);
+}
+#color {
+  background: linear-gradient(75deg, #0191d3, #a64ac9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.game-cards-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.best-games{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
