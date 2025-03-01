@@ -6,6 +6,7 @@ import "./globals.css";
 import Home from "./assets/pages/Home/Home.jsx";
 import Games from "./assets/pages/Games/Games.jsx";
 import About from "./assets/pages/About/About.jsx";
+import Categories from "./assets/pages/Categories/Categories.jsx";
 // Components
 import Sidebar from "./assets/components/Sidebar/Sidebar.jsx";
 import Nav from "./assets/components/Navbar/Nav.jsx";
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/games" element= {<Games />} />
             <Route path="/about" element={<About />} />
+            <Route path="/categories" element={<Categories />} />
           </Routes>
         </div>
       </main>
