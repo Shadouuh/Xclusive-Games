@@ -1,3 +1,4 @@
+
 .hero-header {
   background-image: url("../../images/hero-bg.png");
   display: flex;
@@ -75,15 +76,17 @@ span{
 .game-cards-container{
     display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 120%;
 }
 .best-games{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin: 10px;
     align-items: center;
-    padding: 10px;
 }

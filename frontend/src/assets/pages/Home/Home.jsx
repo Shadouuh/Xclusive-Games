@@ -9,36 +9,67 @@ const Home = () => {
   // Ejemplo de como seria lo ideal que llegue desde el back, por cada juego
   const data = [
     {
-    title: "Call of Duty: Warzone",
-    image: "src/assets/images/hero-bg.png",
-    price: 59.99,
-    stars: 4.5,
-  },
-  {
-    title: "The Legend of Zelda: Breath of The Wild",
-    image: "src/assets/images/hero-bg.png",
-    price: 59.99,
-    stars: 4.5,
-  },
-  {
-    title: "Call of Duty: Warzone",
-    image: "src/assets/images/hero-bg.png",
-    price: 59.99,
-    stars: 4.5,
-  },
-  {
-    title: "The Legend of Zelda: Breath of The Wild",
-    image: "src/assets/images/hero-bg.png",
-    price: 59.99,
-    stars: 4.5,
-  },
-  {
-    title: "The Legend of Zelda: Breath of The Wild",
-    image: "src/assets/images/hero-bg.png",
-    price: 59.99,
-    stars: 4.5,
-  },
-];
+      title: "The Witcher 3: Wild Hunt",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png",
+      price: 39.99,
+      stars: 4.9,
+    },
+    {
+      title: "Elden Ring",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png",
+      price: 59.99,
+      stars: 4.9,
+    },
+    {
+      title: "God of War Ragnarök",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+      price: 49.99,
+      stars: 4.8,
+    },
+    {
+      title: "Cyberpunk 2077",
+      image: "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077_CDPROJEKTRED_S2_03_1200x1600-b1847981214ac013383111fc457eb9c5",
+      price: 39.99,
+      stars: 4.5,
+    },
+    {
+      title: "Resident Evil 4 Remake",
+      image: "https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png",
+      price: 59.99,
+      stars: 4.7,
+    },
+      {
+        title: "The Witcher 3: Wild Hunt",
+        image: "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png",
+        price: 39.99,
+        stars: 4.9,
+      },
+      {
+        title: "Elden Ring",
+        image: "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png",
+        price: 59.99,
+        stars: 4.9,
+      },
+      {
+        title: "God of War Ragnarök",
+        image: "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+        price: 49.99,
+        stars: 4.8,
+      },
+      {
+        title: "Cyberpunk 2077",
+        image: "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077_CDPROJEKTRED_S2_03_1200x1600-b1847981214ac013383111fc457eb9c5",
+        price: 39.99,
+        stars: 4.5,
+      },
+      {
+        title: "Resident Evil 4 Remake",
+        image: "https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png",
+        price: 59.99,
+        stars: 4.7,
+      },
+   
+  ];
 
   return (
     <>
